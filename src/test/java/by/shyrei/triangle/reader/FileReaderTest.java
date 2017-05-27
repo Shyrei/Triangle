@@ -1,4 +1,4 @@
-package by.shyrei.triangle.parser;
+package by.shyrei.triangle.reader;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,14 +9,14 @@ import java.util.List;
  * Created on 24.05.2017.
  * author Uladzimir
  */
-public class LineParserTest {
+public class FileReaderTest {
 
     private static final String FILES_PATH = "files//line.txt";
-    private LineParser lineParser = new LineParser();
+    private FileReader fileReader = new FileReader();
 
     @Test
-    public void parserTest() throws Exception {
-        List<String> testLines = lineParser.parser(FILES_PATH);
+    public void readerTest() throws Exception {
+        List<String> testLines = fileReader.reader(FILES_PATH);
         Assert.assertTrue("Не удалось прочитать файл", testLines.size() > 0);
     }
 }

@@ -1,4 +1,4 @@
-package by.shyrei.triangle.validator;
+package by.shyrei.triangle.service;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,10 +10,10 @@ import java.util.regex.Pattern;
  * Created on 24.05.2017.
  * author Shyrei Uladzimir
  */
-public class TriangleValidator {
+public class FileValidator {
 
     private static final Pattern VALIDATE = Pattern.compile("((-?[\\d]){2}\\s){2}(\\-?[\\d]){2}");
-    private static final Logger logger = LogManager.getLogger(TriangleValidator.class);
+    private static final Logger logger = LogManager.getLogger(FileValidator.class);
 
     public boolean validator(List<String> lines){
         for (String line: lines) {

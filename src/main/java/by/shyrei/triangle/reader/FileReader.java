@@ -1,4 +1,4 @@
-package by.shyrei.triangle.parser;
+package by.shyrei.triangle.reader;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -14,12 +14,12 @@ import java.util.List;
  * Created on 24.05.2017.
  * author Uladzimir
  */
-public class LineParser {
+public class FileReader {
 
     private List<String> lines = new ArrayList<>();
-    private static Logger logger = LogManager.getLogger(LineParser.class);
+    private static Logger logger = LogManager.getLogger(FileReader.class);
 
-    public List<String> parser(String path) {
+    public List<String> reader(String path) {
         try {
             lines = Files.readAllLines(Paths.get(path) , StandardCharsets.UTF_8);
         } catch (IOException e) {
