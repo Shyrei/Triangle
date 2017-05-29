@@ -1,8 +1,6 @@
 package by.shyrei.triangle.observer;
 
 import by.shyrei.triangle.entity.TriangleData;
-import by.shyrei.triangle.service.TriangleCalculation;
-
 import java.util.HashMap;
 
 /**
@@ -17,6 +15,4 @@ public class Storage {
     public void setData(String id, TriangleData data){
         map.put(id, data);
     }
-
-
 }

@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
+import java.util.regex.Pattern;
 
 /**
  * Project Triangle
@@ -16,15 +16,23 @@ import java.util.List;
  */
 public class FileReader {
 
-    private List<String> lines = new ArrayList<>();
+    private ArrayList<String> lines = new ArrayList<>();
     private static Logger logger = LogManager.getLogger(FileReader.class);
+    //private static final Pattern VALIDATE = Pattern.compile("((-?[\\d]){2}\\s){2}(-?[\\d]){2}");
+    private static final Pattern VALIDATE = Pattern.compile("([1-9]\\d?)\\s((-?[\\d]){2}\\s){2}(-?[\\d]){2}");
 
-    public List<String> reader(String path) {
+
+    public ArrayList<String> reader(String path) {
         try {
-            lines = Files.readAllLines(Paths.get(path) , StandardCharsets.UTF_8);
+            Files.readAllLines(Paths.get(path) , StandardCharsets.UTF_8).forEach((String line) -> {
+                if (VALIDATE.matcher(line).matches()) {
+                    lines.add(line);
+                } else logger.warn("Ошибка в строке :" + line);
+            });
         } catch (IOException e) {
             logger.error("Ошибка с файлом: " + e.getMessage());
         }
         return lines;
     }
 }
+

@@ -17,6 +17,9 @@ public class FileReaderTest {
     @Test
     public void readerTest() throws Exception {
         List<String> testLines = fileReader.reader(FILES_PATH);
+        for (String line: testLines) {
+            System.out.println(line);
+        }
         Assert.assertTrue("Не удалось прочитать файл", testLines.size() > 0);
     }
 }

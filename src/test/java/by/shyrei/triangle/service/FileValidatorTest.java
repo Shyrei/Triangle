@@ -12,15 +12,18 @@ import java.util.List;
  */
 public class FileValidatorTest {
 
-    private static final String FILES_PATH = "files//line.txt";
-    private FileReader fileReader = new FileReader();
     private FileValidator fileValidator = new FileValidator();
 
     @Test
-    public void validatorTest() throws Exception {
-        List<String> testLines = fileReader.reader(FILES_PATH);
-        boolean test = fileValidator.validator(testLines);
+    public void correctLine() throws Exception {
+        boolean test = fileValidator.validator("1 -12 21 31");
         Assert.assertTrue("Ошибка в строке", test);
+    }
+
+    @Test
+    public void incorrectLine() throws Exception {
+        boolean test = fileValidator.validator("1s -1f 00 52");
+        Assert.assertFalse("Ошибка в строке", test);
     }
 
 }

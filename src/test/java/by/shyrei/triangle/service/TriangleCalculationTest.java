@@ -12,7 +12,7 @@ import org.junit.Test;
  */
 public class TriangleCalculationTest {
 
-    TriangleCalculation triangleCalculation = new TriangleCalculation();
+    private TriangleCalculation triangleCalculation = new TriangleCalculation();
 
     @Test
     public void triangleSquare() throws Exception {
