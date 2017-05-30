@@ -15,6 +15,7 @@ public class AppTest {
     @Test
     public void runApp() throws Exception {
         app.runApp(path);
-        System.out.println(Storage.map.entrySet());
+        //System.out.println(Storage.map.entrySet());
+        //TODO Уточнить у Игоря Николаевича
     }
 }
