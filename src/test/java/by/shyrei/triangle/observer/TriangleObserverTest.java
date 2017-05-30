@@ -1,6 +1,7 @@
 package by.shyrei.triangle.observer;
 
 import by.shyrei.triangle.entity.Point;
+import by.shyrei.triangle.entity.Storage;
 import by.shyrei.triangle.entity.Triangle;
 import by.shyrei.triangle.entity.TriangleData;
 import by.shyrei.triangle.service.TriangleCalculation;

@@ -12,7 +12,7 @@ public class Triangle {
     private Point first;
     private Point second;
     private Point third;
-    private int id;
+    private int id; //Спросить как лучше реализовать
     private TriangleObserver observer;
 
     public Triangle(int id, Point first, Point second, Point third) {

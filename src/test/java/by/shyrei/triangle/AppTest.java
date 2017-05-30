@@ -1,6 +1,5 @@
 package by.shyrei.triangle;
 
-import by.shyrei.triangle.observer.Storage;
 import org.junit.Test;
 /**
  * Project Triangle

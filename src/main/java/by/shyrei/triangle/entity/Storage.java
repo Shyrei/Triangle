@@ -1,4 +1,4 @@
-package by.shyrei.triangle.observer;
+package by.shyrei.triangle.entity;
 
 import by.shyrei.triangle.entity.TriangleData;
 import java.util.HashMap;

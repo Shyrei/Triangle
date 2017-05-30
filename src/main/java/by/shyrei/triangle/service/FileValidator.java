@@ -19,7 +19,7 @@ class FileValidator {
    
     boolean validator(String line){
         if (!VALIDATE.matcher(line).matches()) {
-                logger.error("Недопустимая строка: " + line);
+                logger.warn("Недопустимая строка: " + line);
                 return false;
             }
         return true;

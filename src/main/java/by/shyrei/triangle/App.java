@@ -4,7 +4,7 @@ import by.shyrei.triangle.creator.TriangleCreator;
 import by.shyrei.triangle.entity.Triangle;
 import by.shyrei.triangle.entity.TriangleData;
 import by.shyrei.triangle.exception.IncorrectPointException;
-import by.shyrei.triangle.observer.Storage;
+import by.shyrei.triangle.entity.Storage;
 import by.shyrei.triangle.reader.FileReader;
 import by.shyrei.triangle.service.TriangleCalculation;
 import org.apache.logging.log4j.LogManager;
