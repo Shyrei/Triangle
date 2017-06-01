@@ -10,7 +10,7 @@ import org.junit.Test;
 /**
  * Project Triangle
  * Created on 30.05.2017.
- * author Uladzimir
+ * author Shyrei Uladzimir
  */
 public class TriangleObserverTest {
 
@@ -20,21 +20,20 @@ public class TriangleObserverTest {
     private Triangle triangle = new Triangle(1, p1, p2, p3);
     private TriangleObserver triangleObserver = new TriangleObserver();
     private TriangleCalculation triangleCalculation = new TriangleCalculation();
-    private Storage storage = new Storage();
+    private Storage storage = Storage.getInstance();
 
     @Test
     public void handleEvent() throws Exception {
         triangle.addObserver(triangleObserver);
-        double s1 = triangleCalculation.triangleSquare(triangle);
-        double p1 = triangleCalculation.trianglePerimeter(triangle);
-        TriangleData td = new TriangleData(s1,p1);
-        String id = String.valueOf(triangle.getId());
-        storage.setData(id, td);
-        TriangleData unexpected = Storage.map.get(id);
+        double square = triangleCalculation.triangleSquare(triangle);
+        double perimeter = triangleCalculation.trianglePerimeter(triangle);
+        TriangleData triangleData = new TriangleData(square,perimeter);
+        storage.setData(triangle.getTriangleId(), triangleData);
+        TriangleData unexpected = storage.getTriangleId(triangle.getTriangleId());
 
         Point test = new Point(-1, 0);
-        triangle.changeFirstPoint(test);
-        TriangleData actual = Storage.map.get(id);
+        triangle.setFirst(test);
+        TriangleData actual = storage.getTriangleId(triangle.getTriangleId());
         Assert.assertNotEquals(unexpected, actual);
     }
 }

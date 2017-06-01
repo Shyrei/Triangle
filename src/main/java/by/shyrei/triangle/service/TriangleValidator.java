@@ -6,7 +6,7 @@ import by.shyrei.triangle.entity.Triangle;
 /**
  * Project Triangle
  * Created on 27.05.2017.
- * author Uladzimir
+ * author Shyrei Uladzimir
  */
 public class TriangleValidator {
 
@@ -14,13 +14,6 @@ public class TriangleValidator {
 
         return (first.getX() - third.getX()) * (second.getY() - third.getY()) - (second.getX() - third.getX()) * (first.getY() - third.getY()) != 0;
     }
-
-    /*public boolean checkIfExist(Triangle triangle) {
-        Point first = triangle.getFirst();
-        Point second = triangle.getSecond();
-        Point third = triangle.getThird();
-        return (first.getX() - third.getX()) * (second.getY() - third.getY()) - (second.getX() - third.getX()) * (first.getY() - third.getY()) != 0;
-    }*/
 
     public boolean checkIfRectangular(Triangle triangle) {
         double x1 = triangle.getFirst().getX();

@@ -6,6 +6,14 @@ package by.shyrei.triangle.exception;
  * author Uladzimir
  */
 public class IncorrectPointException extends Exception {
+
+    public IncorrectPointException() {
+    }
+
+    public IncorrectPointException(Throwable cause) {
+        super(cause);
+    }
+
     public IncorrectPointException(String msg) {
         super(msg);
     }
@@ -13,4 +21,8 @@ public class IncorrectPointException extends Exception {
     public IncorrectPointException(String msg, Throwable e) {
         super(msg, e);
     }
+
+
+
+
 }

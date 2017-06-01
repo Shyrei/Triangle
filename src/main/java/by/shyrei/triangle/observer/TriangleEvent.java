@@ -6,7 +6,7 @@ import java.util.EventObject;
 /**
  * Project Triangle
  * Created on 27.05.2017.
- * author Uladzimir
+ * author Shyrei Uladzimir
  */
 public class TriangleEvent extends EventObject {
 
@@ -15,7 +15,7 @@ public class TriangleEvent extends EventObject {
     }
 
     @Override
-    public Object getSource() {
+    public Triangle getSource() {
         return (Triangle) super.getSource();
     }
 }

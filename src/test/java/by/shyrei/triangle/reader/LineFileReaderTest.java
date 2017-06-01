@@ -7,19 +7,16 @@ import java.util.List;
 /**
  * Project Triangle
  * Created on 24.05.2017.
- * author Uladzimir
+ * author Shyrei Uladzimir
  */
-public class FileReaderTest {
+public class LineFileReaderTest {
 
     private static final String FILES_PATH = "files//line.txt";
-    private FileReader fileReader = new FileReader();
+    private LineFileReader lineFileReader = new LineFileReader();
 
     @Test
     public void readerTest() throws Exception {
-        List<String> testLines = fileReader.reader(FILES_PATH);
-        for (String line: testLines) {
-            System.out.println(line);
-        }
+        List<String> testLines = lineFileReader.lineReader(FILES_PATH);
         Assert.assertTrue("Не удалось прочитать файл", testLines.size() > 0);
     }
 }

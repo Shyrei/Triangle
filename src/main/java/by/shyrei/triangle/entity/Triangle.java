@@ -6,33 +6,33 @@ import by.shyrei.triangle.observer.TriangleObserver;
 /**
  * Project Triangle
  * Created on 24.05.2017.
- * author Uladzimir
+ * author Shyrei Uladzimir
  */
 public class Triangle {
     private Point first;
     private Point second;
     private Point third;
-    private int id; //Спросить как лучше реализовать
+    private int triangleId;
     private TriangleObserver observer;
 
-    public Triangle(int id, Point first, Point second, Point third) {
+    public Triangle(int triangleId, Point first, Point second, Point third) {
         this.first = first;
         this.second = second;
         this.third = third;
-        this.id = id;
+        this.triangleId = triangleId;
     }
 
-    public void changeFirstPoint(Point first) {
+    public void setFirst(Point first) {
         this.first = first;
         notifyObservers();
     }
 
-    public void changeSecondPoint(Point second) {
+    public void setSecond(Point second) {
         this.second = second;
         notifyObservers();
     }
 
-    public void changeThirdPoint(Point third) {
+    public void setThird(Point third) {
         this.third = third;
         notifyObservers();
     }
@@ -49,8 +49,8 @@ public class Triangle {
         return third;
     }
 
-    public int getId() {
-        return id;
+    public int getTriangleId() {
+        return triangleId;
     }
 
     public void addObserver(TriangleObserver observer) {
@@ -74,7 +74,7 @@ public class Triangle {
 
         Triangle triangle = (Triangle) o;
 
-        if (getId() != triangle.getId()) return false;
+        if (getTriangleId() != triangle.getTriangleId()) return false;
         if (getFirst() != null ? !getFirst().equals(triangle.getFirst()) : triangle.getFirst() != null) return false;
         if (second != null ? !second.equals(triangle.second) : triangle.second != null) return false;
         return third != null ? third.equals(triangle.third) : triangle.third == null;
@@ -85,7 +85,7 @@ public class Triangle {
         int result = getFirst() != null ? getFirst().hashCode() : 0;
         result = 31 * result + (second != null ? second.hashCode() : 0);
         result = 31 * result + (third != null ? third.hashCode() : 0);
-        result = 31 * result + getId();
+        result = 31 * result + getTriangleId();
         return result;
     }
 
@@ -95,7 +95,7 @@ public class Triangle {
                 "first=" + first +
                 ", second=" + second +
                 ", third=" + third +
-                ", id=" + id +
+                ", triangleId=" + triangleId +
                 '}';
     }
 }

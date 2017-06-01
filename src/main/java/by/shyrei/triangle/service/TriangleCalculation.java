@@ -5,7 +5,7 @@ import by.shyrei.triangle.entity.Triangle;
 /**
  * Project Triangle
  * Created on 27.05.2017.
- * author Uladzimir
+ * author Shyrei Uladzimir
  */
 public class TriangleCalculation {
 
