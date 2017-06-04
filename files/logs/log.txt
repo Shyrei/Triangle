@@ -1,0 +1,120 @@
+{28-05-2017 16:17:39} {main} {ERROR} {shyrei.triangle.reader.FileReader} {line 26} {Ошибка с файлом: files\line.txt} 
+{28-05-2017 16:18:09} {main} {ERROR} {shyrei.triangle.reader.FileReader} {line 26} {Ошибка с файлом: files\line.txt} 
+{28-05-2017 16:18:09} {main} {ERROR} {shyrei.triangle.reader.FileReader} {line 26} {Ошибка с файлом: files\line.txt} 
+{28-05-2017 16:18:19} {main} {ERROR} {shyrei.triangle.reader.FileReader} {line 26} {Ошибка с файлом: files\line.txt} 
+{28-05-2017 16:18:19} {main} {ERROR} {shyrei.triangle.reader.FileReader} {line 26} {Ошибка с файлом: files\line.txt} 
+{29-05-2017 22:09:25} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 20} {Недопустимая строка: assdsdd} 
+{29-05-2017 22:09:47} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 20} {Недопустимая строка: 1 -12 21 31} 
+{29-05-2017 22:12:36} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 20} {Недопустимая строка: 1s -1f 21 31} 
+{29-05-2017 22:12:55} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 20} {Недопустимая строка: 1s -1f 00 52} 
+{30-05-2017 00:06:53} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [1, 1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:07:11} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [1, 1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:11:18} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:11:18} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 00:11:35} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:11:35} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 00:14:23} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:14:23} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 00:16:03} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:16:03} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 00:18:07} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:18:07} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 00:18:52} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:19:18} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 00:20:16} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:20:16} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 00:20:44} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:20:44} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 46} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 00:24:27} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 00:24:27} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 00:56:17} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [3, 3, -1, -1, 2, 2] лежат на одной прямой} 
+{30-05-2017 00:56:17} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [1, 1, 5, 5, 4, 4] лежат на одной прямой} 
+{30-05-2017 00:56:17} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{30-05-2017 01:03:49} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 01:03:49} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 01:03:49} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{30-05-2017 01:06:00} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 01:06:00} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 01:06:00} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 01:06:00} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 01:06:00} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{30-05-2017 01:06:00} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 01:06:00} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 11:04:02} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 11:04:02} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 11:04:02} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 11:04:02} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 11:04:02} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{30-05-2017 11:04:02} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 11:04:02} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 12:10:01} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{30-05-2017 12:10:01} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 12:21:48} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{30-05-2017 12:21:48} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 12:22:21} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{30-05-2017 12:22:21} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{30-05-2017 14:39:49} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 14:39:49} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 14:39:49} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 14:39:49} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 14:39:49} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{30-05-2017 14:39:49} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{30-05-2017 14:39:49} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 39} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{30-05-2017 14:41:27} {main} {ERROR} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{30-05-2017 14:42:23} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{30-05-2017 14:43:15} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :44 55 664} 
+{30-05-2017 14:43:15} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :} 
+{30-05-2017 14:43:15} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :77 88 99} 
+{30-05-2017 14:43:15} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :---11555} 
+{30-05-2017 14:43:15} {main} { WARN} {shyrei.triangle.reader.FileReader} {line 30} {Ошибка в строке :sdfsad} 
+{31-05-2017 17:02:55} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: [[Ljava.lang.Object;@62fdb4a6, [Ljava.lang.Object;@11e21d0e, [Ljava.lang.Object;@1dd02175]} 
+{31-05-2017 17:02:55} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: [[Ljava.lang.Object;@6e38921c, [Ljava.lang.Object;@64d7f7e0, [Ljava.lang.Object;@27c6e487]} 
+{31-05-2017 17:02:55} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: [[Ljava.lang.Object;@38364841, [Ljava.lang.Object;@28c4711c, [Ljava.lang.Object;@59717824]} 
+{31-05-2017 17:04:34} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -18 22 32} 
+{31-05-2017 17:05:33} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{31-05-2017 17:05:33} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{31-05-2017 17:05:33} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{31-05-2017 17:06:15} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{31-05-2017 17:06:15} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{31-05-2017 17:06:15} {main} { WARN} {shyrei.triangle.service.FileValidator} {line 22} {Недопустимая строка: 1s -1f 00 52} 
+{31-05-2017 19:59:58} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 38} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{31-05-2017 19:59:58} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 38} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{31-05-2017 20:01:15} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 38} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{31-05-2017 20:01:15} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 38} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{01-06-2017 12:26:25} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 38} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{01-06-2017 12:26:25} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 38} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
+{01-06-2017 12:32:20} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 38} {Кординаты [-1, -1, 2, 2, 3, 3] лежат на одной прямой} 
+{01-06-2017 12:32:20} {main} { WARN} {shyrei.triangle.creator.TriangleCreator} {line 38} {Кординаты [5, 5, 4, 4, 1, 1] лежат на одной прямой} 
