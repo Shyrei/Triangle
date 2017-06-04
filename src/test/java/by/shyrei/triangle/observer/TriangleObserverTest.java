@@ -29,11 +29,11 @@ public class TriangleObserverTest {
         double perimeter = triangleCalculation.trianglePerimeter(triangle);
         TriangleData triangleData = new TriangleData(square,perimeter);
         storage.setData(triangle.getTriangleId(), triangleData);
-        TriangleData unexpected = storage.getTriangleId(triangle.getTriangleId());
+        TriangleData actual = storage.getTriangleId(triangle.getTriangleId());
 
         Point test = new Point(-1, 0);
         triangle.setFirst(test);
-        TriangleData actual = storage.getTriangleId(triangle.getTriangleId());
+        TriangleData unexpected = storage.getTriangleId(triangle.getTriangleId());
         Assert.assertNotEquals(unexpected, actual);
     }
 }

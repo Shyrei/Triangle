@@ -20,8 +20,8 @@ public class TriangleCalculationTest {
         Point second = new Point(0,4);
         Point third = new Point(4,0);
         Triangle triangle = new Triangle(1, first, second, third );
-        double expected = Math.round(triangleCalculation.triangleSquare(triangle));
-        double actual = 8;
+        double actual = Math.round(triangleCalculation.triangleSquare(triangle));
+        double expected = 8;
         Assert.assertEquals(expected, actual, 0);
     }
 
@@ -31,8 +31,8 @@ public class TriangleCalculationTest {
         Point second = new Point(1,1);
         Point third = new Point(2,0);
         Triangle triangle = new Triangle(1, first, second, third );
-        double expected = Math.round(triangleCalculation.trianglePerimeter(triangle));
-        double actual = 5;
+        double actual = Math.round(triangleCalculation.trianglePerimeter(triangle));
+        double expected = 5;
         Assert.assertEquals(expected,actual,0);
     }
 

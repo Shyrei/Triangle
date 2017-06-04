@@ -43,8 +43,8 @@ public class TriangleCreatorTest {
     @Test
     public void createTriangle() throws Exception {
         TriangleCreator triangleCreator = new TriangleCreator();
-        Triangle actual = new Triangle(id, one, two, three);
-        Triangle expected = triangleCreator.createTriangle(line);
+        Triangle expected = new Triangle(id, one, two, three);
+        Triangle actual = triangleCreator.createTriangle(line);
         Assert.assertEquals(expected, actual);
     }
 }

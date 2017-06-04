@@ -37,7 +37,6 @@ public class MainTest {
                 });
     }
 
-
     private TriangleCreator triangleCreator = new TriangleCreator();
     private TriangleCalculation triangleCalculation = new TriangleCalculation();
     private Storage storage = Storage.getInstance();
