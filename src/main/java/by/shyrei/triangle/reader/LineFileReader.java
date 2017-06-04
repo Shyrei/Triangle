@@ -1,4 +1,5 @@
 package by.shyrei.triangle.reader;
+import by.shyrei.triangle.exception.InitializationException;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,12 +20,13 @@ public class LineFileReader {
     private static Logger logger = LogManager.getLogger(LineFileReader.class);
     private static final Pattern VALIDATE = Pattern.compile("([1-9]\\d?)\\s((-?[\\d]){2}\\s){2}(-?[\\d]){2}");
 
-    public ArrayList<String> lineReader(String path) {
+    public ArrayList<String> lineReader(String path) throws InitializationException {
         ArrayList<String> lines = new ArrayList<>();
         try {
             Files.readAllLines(Paths.get(path) , StandardCharsets.UTF_8).stream().filter((String line) ->VALIDATE.matcher(line).matches()).forEach(lines::add);
         } catch (IOException e) {
-            logger.log(Level.ERROR, "Ошибка с файлом: " + e.getMessage());
+            logger.log(Level.FATAL, "Ошибка с файлом: " + e.getMessage());
+            throw new InitializationException("Ошибка с файлом: " + e);
         }
         return lines;
     }
