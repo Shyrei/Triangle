@@ -12,19 +12,19 @@ public class Storage {
     private final static Storage instance = new Storage();
     private final HashMap<Integer, TriangleData> triangleCharacteristic = new HashMap<>();
 
-    private Storage(){
+    private Storage() {
     }
 
-    public static Storage getInstance(){
+    public static Storage getInstance() {
         return instance;
     }
 
-    public void setData(Integer id, TriangleData data){
+    public void setData(Integer id, TriangleData data) {
         triangleCharacteristic.put(id, data);
     }
 
-    public TriangleData getTriangleId(Integer id){
-       return triangleCharacteristic.get(id);
+    public TriangleData getTriangleId(Integer id) {
+        return triangleCharacteristic.get(id);
     }
 
 }

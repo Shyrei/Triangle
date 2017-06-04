@@ -4,6 +4,7 @@ import by.shyrei.triangle.entity.Point;
 import by.shyrei.triangle.entity.Triangle;
 import by.shyrei.triangle.exception.IncorrectPointException;
 import by.shyrei.triangle.service.TriangleValidator;
+
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -31,7 +32,7 @@ public class TriangleCreator {
         Point three = new Point(list.get(4), list.get(5));
         if (!triangleValidator.checkIfExist(one, two, three)) {
             throw new IncorrectPointException("Кординаты " + list.toString() + " лежат на одной прямой");
-
-        } return new Triangle(id, one, two, three);
+        }
+        return new Triangle(id, one, two, three);
     }
 }

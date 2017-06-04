@@ -21,8 +21,4 @@ public class IncorrectPointException extends Exception {
     public IncorrectPointException(String msg, Throwable e) {
         super(msg, e);
     }
-
-
-
-
 }
